@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        tvData=findViewById(R.id.tvData);
+
 
         Retrofit retrofit=new Retrofit.Builder()
                 .baseUrl("http://dummy.restapiexample.com/api/v1/")
